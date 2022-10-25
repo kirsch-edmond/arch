@@ -1,0 +1,507 @@
+:root{
+    --bg-color: #fcfcfc;
+    --bg-color-header: #b39800;
+    --pg-font-family:  'Poppins', sans-serif;
+    --color-dark-yellow: #332b00;
+    --color-light-yellow: #fff099;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    color: var(--bg-color);    font-family: var(--pg-font-family);
+
+}
+
+/* ============== Styling For Page Header ================= */
+
+.header{
+    background: var(--bg-color-header);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.header h1{
+    position: relative;
+    top: 15%;
+    font-size: 3em;
+    color: var(--bg-color);
+}
+.header-container{
+    position: relative;
+    top: 20%;
+}
+.header p{
+    font-size: 20px;
+}
+.header h3{
+    margin-top: 3em;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.header .paragraph2{
+    margin: 2em 0 3em 0;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn{
+    color: #332b00;
+    font-size: 20px;
+    padding: 20px 50px 20px 50px;
+    background-color: var(--color-light-yellow);
+    border: 2px solid var(--color-dark-yellow);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.btn:hover{
+    background:  var(--color-dark-yellow);
+    border: 2px solid var(--bg-color);
+    color: var(--bg-color);
+}
+/* ============== Styling For Page Content ================ */
+
+
+section.pg-content{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-dark-yellow);
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: left;
+}
+
+div.interaction{
+    margin-top: 3em;
+}
+
+div.interaction h2{
+    font-size: 25px;
+    margin: 0 0 15px 0;
+}
+
+div.interaction ul{
+    display: flex;
+    flex-direction: column;
+}
+
+div.interaction ul li{
+    font-size: 18px;
+    list-style: none;
+    margin: 10px;
+}
+
+.fa-solid{
+    color:   #ccad00;
+    font-size: 20px;
+    margin: 0 0.5em 0 0;
+}
+
+div.tips ul p{
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+.btn.btn2{
+    padding: 20px 30px 20px 30px;
+}
+
+/* =================== Count Me In======================= */
+
+.count-me-in{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.paragraphs{ 
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    background-color: #e2d485;
+    margin-top: 80px;
+}
+.paragraphs div{
+    margin: 10px;
+    padding: 30px;
+}
+
+.count-me-in p{
+    font-size: 18px;
+    color: var(--color-dark-yellow);
+    margin-top: 15px;
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: left;
+}
+
+
+.count-me-in .tips h3{
+    color: var(--color-dark-yellow);
+    margin-top: 3em;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.count-me-in .tips ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: left;
+}
+
+.count-me-in .tips ul li{
+    color: var(--color-dark-yellow);
+    font-size: 18px;
+    list-style: none;
+    margin: 10px;
+}
+
+.fa-solid{
+    color:   #ccad00;
+    font-size: 20px;
+    margin: 0 0.5em 0 0;
+}
+
+.count-me-in .discovery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebc803;
+    height: 50%;
+    margin-top: 3em;
+    text-align: left;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.count-me-in .inner-content{
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+.count-me-in .inner-content p{
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.count-me-in .discovery h3{
+    color: var(--color-dark-yellow);
+    margin: 3em 0 1em 0;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.count-me-in .discovery ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.count-me-in .discovery .inner-content ul li{
+    color: var(--color-dark-yellow);
+    font-size: 18px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.bonus-tip, .bullet{
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* ==================== THANK YOU PAGE STYLING ==================== */
+
+.home-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    background: var(--bg-color-header);
+}
+
+.nav-txt{
+    text-align: center;
+}
+
+.nav-txt h1{
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    color: var(--bg-color);
+    margin-bottom: 30px;
+}
+
+.pg-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 6%;
+}
+
+.pg-txt p{
+    font-size: 20px;
+    color: var(--color-dark-yellow);
+    margin-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+.pg-txt ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.pg-txt ul li{
+    color: var(--color-dark-yellow);
+    font-size: 18px;
+    list-style: none;
+    margin: 10px;
+}
+
+.btn-ty{
+    width: 20px;
+    padding: 15px;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.contact-left{
+    color: var(--color-dark-yellow);
+    margin-top: 5%;
+    flex-basis: 35%;
+}
+
+.contact-right{
+    text-align: center;
+    flex-basis: 65%;
+    height: 50%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: var(--color-dark-yellow);
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: var(color-dark-yellow);
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: var(--bg-color-header);
+    transform: translateY(-5px);
+}
+
+.contact-right form{
+    padding-left: 30px;
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 90%;
+    border: 0;
+    outline: none;
+    background: #ccad00;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    border-radius: 6px; 
+}
+
+form input::placeholder, form textarea::placeholder{
+    color: var(--color-dark-yellow);
+}
+
+
+form textarea{
+    height: 300px;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+/* ============== Footer Styling ============ */
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: var(--bg-color-header);
+    font-weight: 300;
+}
+
+.copyright #ft-txt{
+    color: var(--bg-color);
+}
+
+
+@media (max-width:680px) {
+    .row{
+        display: block;
+        text-align: center;
+    }
+
+    .contact-left{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .count-me-in p{
+        font-size: 18px;
+        color: var(--color-dark-yellow);
+        margin-top: 15px;
+        padding-left: 8%;
+        padding-right: 8%;
+        text-align: left;
+    }
+
+    .nav-txt{
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+
+    .nav-txt h1{
+        font-size: 2em;
+    }
+
+    .paragraphs div{
+        margin: 0;
+        padding: 2em 0;
+    }
+
+    .contact-right form{
+        padding-left: 0;
+    }
+}
+
+
+/* ================ Styling For Small Screens ================ */
+
+@media (max-width:1110px) {
+
+    .header{
+        height: 110vh;
+        border-radius: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0.6em 0 0.6em;
+        margin: 0.7em 0.7em 0 0.7em;
+    }
+
+    .header h1{
+        position: static;
+        font-size: 1.5em;
+    }
+
+    .header-container{
+        position: static;
+        margin-top: 20px;
+    }
+
+    .header p{
+        font-size: 15px;
+    }
+    .header h3{
+        margin-top: 3em;
+        font-size: 1em;
+        text-decoration: underline;
+    }
+    .header .paragraph2{
+        margin: 1.5em 0 2em 0;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .btn{
+        color: var(--color-dark-yellow);
+        font-size: 12px;
+        font-weight: 600;
+        padding:  12px 20px 12px 20px;
+        background-color: var(--color-light-yellow);
+        border: 2px solid var(--color-dark-yellow);
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+    .count-me-in .tips h3{
+        color: var(--color-dark-yellow);
+        margin: 3em 1em auto 1em;
+        font-size: 1.5em;
+        text-decoration: underline;
+    }
+    
+
+}
+
+
