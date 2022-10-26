@@ -456,7 +456,7 @@ form .btn2{
 
     .header{
         background: linear-gradient(90deg, rgba(48, 47, 43, 0.3), rgba(68, 58, 1, 0.3)),url(bg-image.jpeg);
-        background-position: right;
+        background-position: bottom;
         height: 110vh;
         border-radius: 20px;
         box-sizing: border-box;
