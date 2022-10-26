@@ -29,7 +29,7 @@ body{
     background: linear-gradient(90deg, rgba(48, 47, 43, 0.3), rgba(68, 58, 1, 0.3)),url(bg-image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: bottom;
     height: 100vh;
     text-align: center;
     padding-left: 12%;
@@ -448,6 +448,8 @@ form .btn2{
 @media (max-width:1110px) {
 
     .header{
+        background: linear-gradient(90deg, rgba(48, 47, 43, 0.3), rgba(68, 58, 1, 0.3)),url(bg-image.jpeg);
+        background-position: right;
         height: 110vh;
         border-radius: 20px;
         box-sizing: border-box;
