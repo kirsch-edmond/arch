@@ -26,7 +26,7 @@ body{
 /* ============== Styling For Page Header ================= */
 
 .header{
-    background: var(--bg-color-header);
+    background: linear-gradient(90deg, rgba(48, 47, 43, 0.3), rgba(68, 58, 1, 0.3)),url(/images/bg-image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
