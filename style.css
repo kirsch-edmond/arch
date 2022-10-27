@@ -406,8 +406,8 @@ form .btn2{
         background: linear-gradient(90deg, rgba(48, 47, 43, 0.3), rgba(68, 58, 1, 0.3)),url(bg-image.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position-x: left;
-        background-position-y: bottom;
+        background-position-x: 200px;
+        background-position-y: 200px;
         height: 100vh;
         text-align: center;
         padding-left: 12%;
